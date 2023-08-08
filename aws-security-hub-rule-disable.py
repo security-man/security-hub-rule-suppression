@@ -7,17 +7,12 @@ import csv
 from botocore.client import ClientError
 from botocore.exceptions import ParamValidationError
 
-# logging.basicConfig(level=logging.DEBUG)
-
 # setup account input details and define aws profiles
 input_switch_statement = input('Choose input type: 1 = comma-separated list of profiles, 2 = path to aws .config file: ')
 if input_switch_statement == '1':
-
     profile_string = input('Specify AWS Profile List: ')
     profile_list = profile_string.split(",")
-
 elif input_switch_statement == '2':
-
     profile_string = input('Specify .aws config file path: ')
     profile_list = []
 
@@ -32,7 +27,6 @@ elif input_switch_statement == '2':
             if line_contents[0] == '[profile':
                 profile_name = line_contents[1].split(']')
                 profile_list.append(profile_name[0])
-
 else:
     raise Exception("Sorry, no numbers below zero")
 
