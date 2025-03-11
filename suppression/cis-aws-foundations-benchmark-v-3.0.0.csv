@@ -1,0 +1,5 @@
+arn:aws:securityhub:eu-west-2:037376268049:control/cis-aws-foundations-benchmark/v/3.0.0/1.12
+arn:aws:securityhub:eu-west-2:037376268049:control/cis-aws-foundations-benchmark/v/3.0.0/1.17
+arn:aws:securityhub:eu-west-2:037376268049:control/cis-aws-foundations-benchmark/v/3.0.0/3.4
+arn:aws:securityhub:eu-west-2:037376268049:control/cis-aws-foundations-benchmark/v/3.0.0/3.6
+arn:aws:securityhub:eu-west-2:037376268049:control/cis-aws-foundations-benchmark/v/3.0.0/3.7
